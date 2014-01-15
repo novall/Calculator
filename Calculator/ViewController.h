@@ -10,4 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *outputLabel;
+
+- (IBAction)numPressed:(UIButton *)sender;
+
+- (IBAction)equalsPressed:(UIButton *)sender;
+
 @end
